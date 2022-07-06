@@ -1,0 +1,33 @@
+{
+    "name": "jonathansergio/customer-import",
+    "description": "This module creates customers programmatically with data from csv and json files.",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Jonathan Silva",
+            "email": "jonathan.1313@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": "~7.3.0|~7.4.0",
+        "magento/framework": ">=102.0.0"
+    },
+    "repositories": {
+        "jonathansergio/customer-import": {
+            "type": "git",
+            "url": "https://github.com/jonathansergio/customer-import"
+        }
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Js/CustomerImport"
+            ]
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "version":"1.0.0"
+}
